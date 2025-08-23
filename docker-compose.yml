@@ -21,7 +21,7 @@ services:
       retries: 15
 
   api:
-    image: ozeryot/basicstockapp-api
+    image: yeteam/basicstockapp-api
     container_name: mymarket-api
     depends_on:
       mysql:
