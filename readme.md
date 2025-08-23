@@ -40,13 +40,13 @@ docker-compose --version
 2. Pull the API image from the official Docker Hub repository:
 
 ```bash
-docker pull ozeryot/basicstockapp-api
+docker pull yeteam/basicstockapp-api
 ```
 
 > If you want to run with SSL, pull the following image and use `docker-compose-ssl.yml`:
 
 ```bash
-docker pull ozeryot/basicstockapp-api-ssl
+docker pull yeteam/basicstockapp-api-ssl
 ```
 
 3. After the pull is complete, check your images with:
