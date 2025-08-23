@@ -34,13 +34,13 @@ docker-compose --version
 2. Aşağıdaki komut ile resmi Docker Hub repository’sinden API imajını çekin:
 
 ```bash
-docker pull ozeryot/basicstockapp-api
+docker pull yeteam/basicstockapp-api
 ```
 
 > Eğer SSL ile çalıştırmak isterseniz, aşağıdaki imajı çekin ve `docker-compose-ssl.yml` ile başlatın:
 
 ```bash
-docker pull ozeryot/basicstockapp-api-ssl
+docker pull yeteam/basicstockapp-api-ssl
 ```
 
 3. Pull işlemi tamamlandıktan sonra imajlarınızı kontrol edebilirsiniz:
