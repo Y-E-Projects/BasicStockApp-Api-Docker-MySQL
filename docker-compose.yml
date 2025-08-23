@@ -30,7 +30,7 @@ services:
       ConnectionStrings__DefaultConnection: "Server=mysql;Port=3306;Database=stockdb;User=marketuser;Password=market123"
       DOTNET_ENVIRONMENT: "Development"
     ports:
-      - "8080:8080"
+      - "5000:5000"
 
 volumes:
   mysql_data:
