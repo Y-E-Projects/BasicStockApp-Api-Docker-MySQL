@@ -40,12 +40,6 @@ docker-compose --version
 2. Pull the API image from the official Docker Hub repository:
 
 ```bash
-docker pull yeteam/basicstockapp-api
-```
-
-> If you want to run with SSL, pull the following image and use `docker-compose-ssl.yml`:
-
-```bash
 docker pull yeteam/basicstockapp-api-ssl
 ```
 
@@ -87,12 +81,6 @@ cd BasicStockApp-Api-Docker-MySQL
 docker-compose up -d
 ```
 
-> To run with SSL:
-
-```bash
-docker-compose -f docker-compose-ssl.yml up -d
-```
-
 2. Once the command executes, containers will start in the background. Check the status with:
 
 ```bash
@@ -103,7 +91,6 @@ docker ps
 
 3. The application is now running at:
 
-* Standard: [**http://localhost:8080**](http://localhost:8080)
 * SSL: [**https://localhost:5001**](https://localhost:5001)
 
 ---
