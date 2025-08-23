@@ -34,12 +34,6 @@ docker-compose --version
 2. Aşağıdaki komut ile resmi Docker Hub repository’sinden API imajını çekin:
 
 ```bash
-docker pull yeteam/basicstockapp-api
-```
-
-> Eğer SSL ile çalıştırmak isterseniz, aşağıdaki imajı çekin ve `docker-compose-ssl.yml` ile başlatın:
-
-```bash
 docker pull yeteam/basicstockapp-api-ssl
 ```
 
@@ -81,12 +75,6 @@ cd BasicStockApp-Api-Docker-MySQL
 docker-compose up -d
 ```
 
-> SSL ile çalıştırmak isterseniz:
-
-```bash
-docker-compose -f docker-compose-ssl.yml up -d
-```
-
 2. Komut çalıştıktan sonra container’lar arka planda başlatılacaktır. Durumu kontrol etmek için:
 
 ```bash
@@ -97,7 +85,6 @@ docker ps
 
 3. Uygulama artık şu adreste çalışmaktadır:
 
-* Standard: [**http://localhost:8080**](http://localhost:8080)
 * SSL: [**https://localhost:5001**](https://localhost:5001)
 
 ---
